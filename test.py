@@ -36,7 +36,7 @@ f_reaction = codecs.open(reaction_path, 'w', 'utf8')
 for page_num in range(78,118):#118
     url="https://go.drugbank.com/reactions?page="+str(page_num)
     print(url)
-    #url="E:\张素华\PyCharm Project\drugbank_2.html"
+    #url="PyCharm Project\drugbank_2.html"
     page_sourse = driver.get(url)
     file_name ='drugbank_' + str(page_num) + u'.html'
 
